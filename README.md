@@ -1,2 +1,2 @@
 # node-js
-starter node js projects
+starter node js project

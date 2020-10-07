@@ -16,7 +16,7 @@ passport.deserializeUser(User.deserializeUser());
 exports.getToken = (user) => {
   //to create the jwt
   return jwt.sign(user,config.secretKey,{
-    expiresIn: 3600
+    expiresIn: 7200
   });
 };
 
